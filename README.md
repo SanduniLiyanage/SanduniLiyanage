@@ -27,10 +27,13 @@ Builds a budget from your own spending history, entirely on the phone.
 
 `Flutter` `Dart 3` `Riverpod` `SQLite / SQLCipher` `Google ML Kit` `GitHub Actions`
 
-**[Homeward](https://github.com/SanduniLiyanage/cg)** — animated computer graphics short (team project)
-A hot-air balloon's day-to-night journey in OpenGL, with classic CG algorithms hand-implemented: DDA, Bresenham, midpoint circle, scan-line/flood fill, Cohen–Sutherland, Liang–Barsky and a software Z-buffer.
+**[Waypoint Logistics](https://github.com/n1s1th/SynapX_WaypointLogistics)** — delivery operations platform (team SynapX, Tech-Triathlon 2026) · [live system](https://synap-x-waypoint-logistics-8thu.vercel.app/)
+Role-based platform covering an order's whole journey: store request, depot allocation, dock loading, driver delivery and receipt.
+- Built the Loader workspace end to end: dock queue, loading checklist, issue flags and truck release
+- Offline mode for the dock: pages cached per run, actions queued in an outbox and synced when the connection returns
+- Single sign-on for all five roles through Keycloak, with role-scoped workspaces
 
-`C++` `OpenGL` `FreeGLUT` `CMake`
+`Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Keycloak` `Docker`
 
 ### 🤝 Team projects
 
@@ -42,12 +45,12 @@ A hot-air balloon's day-to-night journey in OpenGL, with classic CG algorithms h
 ### 🛠️ Tech I work with
 
 **Languages:** Java · Dart · TypeScript · JavaScript · C++ · Python · SQL<br>
-**Backend:** Spring Boot · FastAPI · PostgreSQL · Flyway · REST / OpenAPI<br>
+**Backend:** Spring Boot · FastAPI · PostgreSQL · Flyway · Keycloak · REST / OpenAPI<br>
 **Mobile & frontend:** Flutter · Riverpod · React · Next.js<br>
-**Tooling:** Git · GitHub Actions · Docker · CMake
+**Tooling:** Git · GitHub Actions · Docker
 
 ### 📈 Currently
 
-- Building the receipt scanner for Moneyora (on-device OCR with ML Kit)
+- Shipped Moneyora 1.0 and iterating on it from testers' feedback
 - Working toward horizontal scaling for Flaglane
 - Open to internship opportunities — feel free to reach out!
