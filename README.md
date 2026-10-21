@@ -46,7 +46,6 @@ I built the frontend of the **Loader workspace**, the app the dock team uses to 
 
 - **[HRM System](https://github.com/Sachintha-dilshan49/hrm-system)** — modular HR platform with an applicant tracking system and an AI CV-screening microservice. I built its authentication (JWT with refresh tokens, TOTP two-factor sign-in, OTP password recovery, rate-limited auth endpoints), notifications and time tracking. `FastAPI` `Next.js` `PostgreSQL`
 - **[Sentrio](https://github.com/Devmith0702/sentrio)** — agentic AI browser extension that detects social engineering aimed at Sri Lankan banking users. I built the extension's interface: the popup, the in-page warning overlay, and the threat and risk cards. `JavaScript` `React`
-- **[Homeward](https://github.com/SanduniLiyanage/cg)** — an animated short in C++ and OpenGL that works 23 computer graphics concepts into one continuous scene, with the line, circle, fill and clipping algorithms written by hand. `C++` `OpenGL` `CMake`
 
 ---
 
