@@ -19,13 +19,15 @@ Deploy a feature turned off, roll it out to a percentage of users, and switch it
 
 `Java 25` `Spring Boot 3` `PostgreSQL` `Flyway` `TypeScript SDK` `Docker`
 
-**[Moneyora](https://github.com/SanduniLiyanage/Moneyora)** — offline-first personal finance app · **released, [v1.1.0 for Android](https://github.com/SanduniLiyanage/Moneyora/releases/latest)**
+**[Moneyora](https://github.com/SanduniLiyanage/Moneyora)** — offline-first personal finance app · **released, [v1.2.0 for Android](https://github.com/SanduniLiyanage/Moneyora/releases/latest)** · [v1.3.0 in testing](https://github.com/SanduniLiyanage/Moneyora/releases/tag/v1.3.0)
 Builds a budget from your own spending history and reads receipts with on-device OCR, entirely on the phone.
-- Money Plan Generator: classifies each category as fixed, variable, seasonal or trending and produces confidence-scored budgets on-device
+- Money Plan Generator: classifies each category as fixed, variable or seasonal, adjusts for its trend, and produces confidence-scored budgets on-device
+- Receipt scanner reads a receipt in stages and checks its items against the printed total; categories learn from the user's corrections
+- Debts kept per person and netted, settled in one tap, optionally moving the account the money went through
 - AES-256 encrypted database (SQLCipher), key held in Android Keystore / iOS Keychain
 - Feature-first Clean Architecture, enforced on every push by a CI architecture-boundary checker
 - Audited the project's specifications before coding and tracked every defect found in a public errata log
-- 2,400+ automated tests, 91.5% domain-layer coverage, 178 merged pull requests; three releases shaped by tester feedback
+- 2,888 automated tests, 92.5% domain-layer coverage, 183 merged pull requests; five releases, the later ones shaped by tester feedback, signed and published by GitHub Actions
 
 `Flutter` `Dart 3` `Riverpod` `SQLite / SQLCipher` `Google ML Kit` `GitHub Actions`
 
@@ -53,6 +55,6 @@ Role-based platform covering an order's whole journey: store request, depot allo
 
 ### 📈 Currently
 
-- Shipped Moneyora 1.1.0 — a redesigned home screen and faster expense entry, from testers' feedback
+- Testing Moneyora 1.3.0 with friends — debts kept per person, credit cards showing what's left to spend, and safer updates
 - Building Flaglane's React dashboard
 - Open to internship opportunities — feel free to reach out!
